@@ -1,0 +1,133 @@
+/*General Stylings*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  font-color: seashell;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+.main {
+  padding-top: 70px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+  z-index: 1;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*Header*/
+header {
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  z-index: 5;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  background-color: black;
+}
+
+header img {
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  text-decoration: underline;
+  display: inline-block;
+  padding: 5px;
+  }
+
+
+/*Mission*/
+#mission{
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/*Tea of the Month*/
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+    display: block;
+    padding-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Locations*/
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image:url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.location {
+  width: 300px;
+  background-color: black;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-container.locations {
+    padding-top: 5px;
+}
+
+/*Contact*/
+
+.contact {
+  height: 200px;
+}
+
+/*Footer*/
+
+Footer {
+  text-align: left;
+  padding-left: 20px;
+}
